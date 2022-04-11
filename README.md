@@ -11,16 +11,16 @@ class Chicken extends Food{
 	{System.out.println("spicy....");
 	}
 }
-}
+
 public class SingleInheritance {
 
 	public static void main(String[] args) {
 	   Chicken f=new Chicken();
-	   Dhal f1=new Dhal();
-	   Food f2=new Food();
-	   f.spicy();
-	   f1.Boring();
+	   Food f1=new Food();
+	  f1.tasty();
+	  f.spicy();
        
 	}
 
 }
+
