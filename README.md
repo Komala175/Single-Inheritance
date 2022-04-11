@@ -11,11 +11,6 @@ class Chicken extends Food{
 	{System.out.println("spicy....");
 	}
 }
-class Dhal extends Food{
-	void Boring()
-	{System.out.println("Boring....");
-	
-}
 }
 public class SingleInheritance {
 
